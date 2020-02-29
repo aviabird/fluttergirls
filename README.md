@@ -1,4 +1,4 @@
-# flttergirls
+# flutter-girls
 
 A new Flutter project.
 
