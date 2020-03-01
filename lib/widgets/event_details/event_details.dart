@@ -26,7 +26,7 @@ class EventDetails extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'FLUTTER GIRLS',
+              'FLUTTER FOR GIRLS',
               style: TextStyle(
                   fontWeight: FontWeight.w800,
                   height: 0.9,
@@ -37,7 +37,7 @@ class EventDetails extends StatelessWidget {
               height: 30,
             ),
             Text(
-              'Is Google’s UI toolkit for buildingbeautiful, natively compiled applicationsformobile,web, anddesktopfrom a singlecodebase.',
+              'We love Flutter, use it heavily at work and want to promote the borderless global Flutter Community. We want to encourage Girls to start experimenting with flutter. Our aim is to give tools and a community for women to understand technology and to build their ideas. ',
               style: TextStyle(fontSize: descriptionSize, height: 1.7),
               textAlign: textAlignment,
             ),

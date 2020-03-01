@@ -1,5 +1,6 @@
+import 'package:flttergirls/routing/route_names.dart';
 import 'package:flutter/material.dart';
-import 'package:flttergirls/views/widgets/navigation_bar/navbar_logo.dart';
+import 'package:flttergirls/widgets/navigation_bar/navbar_logo.dart';
 
 class NavigationBarMobile extends StatelessWidget {
   const NavigationBarMobile({Key key}) : super(key: key);
@@ -15,7 +16,7 @@ class NavigationBarMobile extends StatelessWidget {
           IconButton(icon: Icon(Icons.menu),
            onPressed: (){},
            ),
-           NavBarLogo()
+           NavBarLogo(HomeRoute)
         ],
       ),
     );

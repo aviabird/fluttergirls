@@ -1,6 +1,10 @@
+import 'package:flttergirls/views/layout_template/layout_template.dart';
 import 'package:flutter/material.dart';
-import 'package:flttergirls/views/home/home_view.dart';
-void main() => runApp(MyApp());
+import 'package:flttergirls/location.dart';
+void main() {
+  setUpLocator();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -14,7 +18,7 @@ class MyApp extends StatelessWidget {
           fontFamily: 'Open Sans'
         )
       ),
-      home: HomeView(),
+      home: LayoutTemplate(),
     );
   }
 }

@@ -1,5 +1,5 @@
-import 'package:flttergirls/views/widgets/call_to_action/call_to_action.dart';
-import 'package:flttergirls/views/widgets/event_details/event_details.dart';
+import 'package:flttergirls/widgets/call_to_action/call_to_action.dart';
+import 'package:flttergirls/widgets/event_details/event_details.dart';
 import 'package:flutter/material.dart';
 
 class HomeContentDesktop extends StatelessWidget {

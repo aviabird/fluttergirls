@@ -1,5 +1,6 @@
-import 'package:flttergirls/views/widgets/navigation_drawer/drawer_item.dart';
-import 'package:flttergirls/views/widgets/navigation_drawer/navigation_drawer_header.dart';
+import 'package:flttergirls/routing/route_names.dart';
+import 'package:flttergirls/widgets/navigation_drawer/drawer_item.dart';
+import 'package:flttergirls/widgets/navigation_drawer/navigation_drawer_header.dart';
 import 'package:flutter/material.dart';
 
 class NavigationDrawer extends StatelessWidget {
@@ -18,8 +19,8 @@ class NavigationDrawer extends StatelessWidget {
       child: Column(
         children: <Widget>[
           NavigationDrawerHeader(),
-          DrawerItem('Events', Icons.videocam),
-          DrawerItem('Community', Icons.help),
+          DrawerItem('Events', Icons.videocam, EventRoute),
+          DrawerItem('Community', Icons.help, CommunityRoute),
         ],
       ),
     );

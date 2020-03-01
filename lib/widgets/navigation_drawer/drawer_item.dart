@@ -1,10 +1,11 @@
-import 'package:flttergirls/views/widgets/navigation_bar/navbar_item.dart';
+import 'package:flttergirls/widgets/navigation_bar/navbar_item.dart';
 import 'package:flutter/material.dart';
 
 class DrawerItem extends StatelessWidget {
   final String title;
+  final String navigationPath;
   final IconData icon;
-  const DrawerItem(this.title, this.icon);
+  const DrawerItem(this.title, this.icon, this.navigationPath);
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +16,7 @@ class DrawerItem extends StatelessWidget {
         SizedBox(
           width: 30,
         ),
-        NaveBarItem(title)
+        NaveBarItem(title, navigationPath)
       ],),
     );
   }
