@@ -1,10 +1,10 @@
-import 'package:flttergirls/location.dart';
-import 'package:flttergirls/routing/route_names.dart';
-import 'package:flttergirls/routing/router.dart';
-import 'package:flttergirls/services/navigation_service.dart';
-import 'package:flttergirls/widgets/centered_view/centered_view.dart';
-import 'package:flttergirls/widgets/navigation_bar/navigation_bar.dart';
-import 'package:flttergirls/widgets/navigation_drawer/navigation_drawer.dart';
+import 'package:fluttergirls/location.dart';
+import 'package:fluttergirls/routing/route_names.dart';
+import 'package:fluttergirls/routing/router.dart';
+import 'package:fluttergirls/services/navigation_service.dart';
+import 'package:fluttergirls/widgets/centered_view/centered_view.dart';
+import 'package:fluttergirls/widgets/navigation_bar/navigation_bar.dart';
+import 'package:fluttergirls/widgets/navigation_drawer/navigation_drawer.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 

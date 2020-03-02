@@ -1,6 +1,6 @@
-import 'package:flttergirls/routing/route_names.dart';
-import 'package:flttergirls/widgets/navigation_drawer/drawer_item.dart';
-import 'package:flttergirls/widgets/navigation_drawer/navigation_drawer_header.dart';
+import 'package:fluttergirls/routing/route_names.dart';
+import 'package:fluttergirls/widgets/navigation_drawer/drawer_item.dart';
+import 'package:fluttergirls/widgets/navigation_drawer/navigation_drawer_header.dart';
 import 'package:flutter/material.dart';
 
 class NavigationDrawer extends StatelessWidget {

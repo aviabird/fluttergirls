@@ -1,5 +1,5 @@
-import 'package:flttergirls/location.dart';
-import 'package:flttergirls/services/navigation_service.dart';
+import 'package:fluttergirls/location.dart';
+import 'package:fluttergirls/services/navigation_service.dart';
 import 'package:flutter/material.dart';
 
 class NavBarLogo extends StatelessWidget {

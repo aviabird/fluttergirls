@@ -1,4 +1,4 @@
-package com.example.flttergirls
+package com.example.fluttergirls
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

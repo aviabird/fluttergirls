@@ -1,4 +1,4 @@
-import 'package:flttergirls/services/navigation_service.dart';
+import 'package:fluttergirls/services/navigation_service.dart';
 import 'package:get_it/get_it.dart';
 
 GetIt locator = GetIt.instance;

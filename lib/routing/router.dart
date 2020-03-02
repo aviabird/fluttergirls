@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flttergirls/routing/route_names.dart';
-import 'package:flttergirls/views/community/community_view.dart';
-import 'package:flttergirls/views/event/event_view.dart';
-import 'package:flttergirls/views/home/home_view.dart';
+import 'package:fluttergirls/routing/route_names.dart';
+import 'package:fluttergirls/views/community/community_view.dart';
+import 'package:fluttergirls/views/event/event_view.dart';
+import 'package:fluttergirls/views/home/home_view.dart';
 
 Route<dynamic> generateRoute(RouteSettings settings) {
   switch (settings.name) {

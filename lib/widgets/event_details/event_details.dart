@@ -1,9 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
+import 'package:fluttergirls/utils/constants.dart';
 
-class EventDetails extends StatelessWidget {
-  const EventDetails({Key key}) : super(key: key);
+class EventDetails extends StatefulWidget {
+  final String title;
+  final String content;
+  final String type;
+  EventDetails({this.content, this.title, this.type});
 
+  @override
+  State<StatefulWidget> createState() {
+    return _EventDetails();
+  }
+}
+
+class _EventDetails extends State<EventDetails> {
   @override
   Widget build(BuildContext context) {
     return ResponsiveBuilder(builder: (context, sizingInformation) {
@@ -13,8 +24,16 @@ class EventDetails extends StatelessWidget {
               : TextAlign.center;
       double titleSize =
           sizingInformation.deviceScreenType == DeviceScreenType.Mobile
-              ? 50
-              : 80;
+              ? widget.type == 'heading'
+                  ? HEADING_FONT_SIZE_MOBILE
+                  : widget.type == 'subHeading'
+                      ? SUBHEADING_FONT_SIZE_MOBILE
+                      : HEADING_FONT_SIZE_MOBILE
+              : widget.type == 'heading'
+                  ? HEADING_FONT_SIZE_TABLET
+                  : widget.type == 'subHeading'
+                      ? SUBHEADING_FONT_SIZE_TABLET
+                      : HEADING_FONT_SIZE_TABLET;
       double descriptionSize =
           sizingInformation.deviceScreenType == DeviceScreenType.Mobile
               ? 16
@@ -26,9 +45,9 @@ class EventDetails extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'FLUTTER FOR GIRLS',
+              widget.title,
               style: TextStyle(
-                  fontWeight: FontWeight.w800,
+                  // fontWeight: FontWeight.w800,
                   height: 0.9,
                   fontSize: titleSize),
               textAlign: textAlignment,
@@ -37,7 +56,7 @@ class EventDetails extends StatelessWidget {
               height: 30,
             ),
             Text(
-              'We love Flutter, use it heavily at work and want to promote the borderless global Flutter Community. We want to encourage Girls to start experimenting with flutter. Our aim is to give tools and a community for women to understand technology and to build their ideas. ',
+              widget.content,
               style: TextStyle(fontSize: descriptionSize, height: 1.7),
               textAlign: textAlignment,
             ),

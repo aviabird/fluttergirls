@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flttergirls/views/home/home_content_desktop.dart';
-import 'package:flttergirls/views/home/home_content_mobile.dart';
+import 'package:fluttergirls/views/home/home_content_desktop.dart';
+import 'package:fluttergirls/views/home/home_content_mobile.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 class HomeView extends StatelessWidget {

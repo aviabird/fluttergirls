@@ -1,6 +1,6 @@
-import 'package:flttergirls/routing/route_names.dart';
+import 'package:fluttergirls/routing/route_names.dart';
 import 'package:flutter/material.dart';
-import 'package:flttergirls/widgets/navigation_bar/navbar_logo.dart';
+import 'package:fluttergirls/widgets/navigation_bar/navbar_logo.dart';
 
 class NavigationBarMobile extends StatelessWidget {
   const NavigationBarMobile({Key key}) : super(key: key);

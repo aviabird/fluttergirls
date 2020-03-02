@@ -1,4 +1,4 @@
-import 'package:flttergirls/constants/app_colors.dart';
+import 'package:fluttergirls/constants/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class CallToActionMobile extends StatelessWidget {
